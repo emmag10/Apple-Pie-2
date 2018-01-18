@@ -262,8 +262,6 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tE-7Y-U3d">
                                                 <rect key="frame" x="0.0" y="157" width="1366" height="31.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="683" id="9BP-Yw-r5X"/>
-                                                    <constraint firstAttribute="width" constant="1366" id="Fcs-WQ-kH4"/>
                                                     <constraint firstAttribute="height" constant="60" id="u5J-3o-iWm"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -281,8 +279,6 @@
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="4tE-7Y-U3d" secondAttribute="trailing" constant="683" id="4QX-ZV-xCd"/>
-                                            <constraint firstItem="4tE-7Y-U3d" firstAttribute="leading" secondItem="Wlw-1J-OKS" secondAttribute="leading" constant="683" id="LzZ-HO-RrF"/>
                                             <constraint firstAttribute="height" constant="220" id="kEA-30-bhO"/>
                                         </constraints>
                                     </stackView>
