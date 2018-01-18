@@ -97,12 +97,10 @@ class ViewController: UIViewController {
             letters.append(String(letter))
             
 //an array that changes the characters to a string
-            var stringArray = [characters.self]
-            var emptyArray:[String] = []
-            for string in stringArray {
-                emptyArray.append(characters: String)
-            }
-        }
+        var stringArray = [String.self]
+            var newArray = stringArray.map({_ in (String)()
+         } )
+    
 //the text is equal to the formatted word
 // the score is wins and desplays the wins also if you loose it displays the losses
 //the image comes up the tree changes with how many incorrect moves you have
@@ -114,7 +112,7 @@ class ViewController: UIViewController {
 
     
  
-    override func didReceiveMemoryWarning() {
+        func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -122,3 +120,4 @@ class ViewController: UIViewController {
 
 }
 
+}
